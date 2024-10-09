@@ -26,6 +26,7 @@ An Expense Tracker built with ReactJS to help users manage and visualize their p
   - [ReactJS](https://react.dev/)
   - [ContextAPI](https://react.dev/reference/react/useContext) (Global Context)
   - [useReducer](https://react.dev/reference/react/useReducer) (complex state management)
+  - [TypeScript](https://www.typescriptlang.org/docs/) (Type Safety)
   
 
 ## Getting Started
