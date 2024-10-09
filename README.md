@@ -12,6 +12,9 @@ An Expense Tracker built with ReactJS to help users manage and visualize their p
 - [License](#license)
 - [Contact](#contact)
 
+## Image
+![p1](https://github.com/user-attachments/assets/3ddf2980-44d6-42d7-89e5-a61db9805803)
+
 
 ## Features
 
