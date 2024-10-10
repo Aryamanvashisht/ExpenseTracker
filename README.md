@@ -23,6 +23,9 @@ An Expense Tracker built with ReactJS to help users manage and visualize their p
 - View expense history
 - Responsive design for mobile and desktop
 
+## Live Link
+https://trackitbudget.vercel.app/
+
 ## Technologies Used
 
 - **Frontend:**
