@@ -4,14 +4,13 @@ import { globalContext } from "../Context/Globalstate";
 const AddTransaction = () => {
   const [text, setText] = useState("");
   const [amount, setAmount] = useState<number>(0);
-  const { addTransaction, transactions } = useContext(globalContext);
+  const { addTransaction,transactions} = useContext(globalContext);
    const amount2 = transactions.map((transaction) => transaction.amount);
-   const total = amount2.reduce((acc, item) => (acc += item), 0).toFixed(2);
+  const total = +(amount2.reduce((acc, item) => (acc += item), 0).toFixed(2)); //total is balance available
   
-
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (text !== '' && amount !== 0 && amount >= +total)
+    if (text !== '' && amount !== 0 && (amount <0 ? Math.abs(amount) <= total:true))
     {
       const newTransaction = {
         id: Date.now(),
